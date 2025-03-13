@@ -107,7 +107,7 @@ def main():
 
     # 使用 st.session_state 存储服务器地址
     if 'server_url' not in st.session_state:
-        st.session_state.server_url = "https://u494575-9ca8-5c732349.nmb1.seetacloud.com:8443/generate"  # 修改为 FastAPI 服务的地址
+        st.session_state.server_url = "https://u494575-90db-aeb02df2.westx.seetacloud.com:8443/generate"  # 修改为 FastAPI 服务的地址
 
     # 选择批处理或单个测试
     option = st.radio("请选择操作模式", ("批处理", "单个测试"))
